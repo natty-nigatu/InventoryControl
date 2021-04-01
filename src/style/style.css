@@ -1,0 +1,121 @@
+.root{
+    -fx-font-family: "Open Sans";
+    -fx-focus-color: darkGoldenRod;
+    -fx-faint-focus-color: rgba(184, 134, 11, 0.26);
+    -fx-background-image: url("../assets/bg.jpg");
+    -fx-background-size: stretch;
+
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header{
+    -fx-background-color: rgba(246, 169, 10, 0.2);
+}
+
+.table-view{
+    -fx-selection-bar:  #956d0b;
+}
+
+.combo-box{
+    -fx-background-color: white;
+}
+
+#image-button{
+    -fx-background-color: Transparent;
+    -fx-font-size: 50pt;
+    -fx-text-fill: #956d0b;
+
+}
+
+.date-picker > .arrow-button, .date-picker > * > * > * > * > .button{
+
+    -fx-background-color: rgba(187, 131, 12, 0.41);
+    -fx-border-color: rgba(187, 131, 12, 0.41);
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: black;
+
+}
+
+.button{
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: #956d0b;
+    -fx-text-fill: white;
+}
+
+.label{
+    -fx-text-fill: #4c370b;
+}
+
+.text-field, .combo-box, .date-picker{
+
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: rgba(184, 134, 11, 0.58);
+}
+
+.scroll-pane, .scroll-pane > *{
+    -fx-background-color: transparent;
+}
+
+.text-field:readonly{
+
+    -fx-focus-color: rgba(184, 134, 11, 0.58);
+    -fx-faint-focus-color: Transparent;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+    -fx-background-color:transparent;
+}
+
+#product-tab {
+    -fx-tab-min-width:173px;
+    -fx-tab-max-width:173px;
+    -fx-tab-min-height:22px;
+    -fx-tab-max-height:22px;
+}
+
+.tab-pane {
+    -fx-tab-min-width:112px;
+    -fx-tab-max-width:112px;
+    -fx-tab-min-height:30px;
+    -fx-tab-max-height:30px;
+}
+
+
+
+.tab {
+    -fx-font-size: 16;
+    -fx-background-color: #956d0b ;
+    -fx-text-base-color: white;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-focus-color: Transparent;
+    -fx-faint-focus-color: Transparent;
+
+}
+
+.tab:selected {
+    -fx-background-color: Transparent ;
+    -fx-text-base-color: #956d0b ;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-font-family: "Open Sans Semibold";
+
+}
+
+.label-large{
+     -fx-font-size: 20;
+ }
+
+.label-red{
+    -fx-text-fill: firebrick;
+}
+
+.label-green{
+    -fx-text-fill: forestGreen;
+}
